@@ -60,10 +60,6 @@ jobs:
   # ═══════════════════════════════════════════════
   # ÉTAPE 8 : DAST (Après publication Docker Hub)
   # ═══════════════════════════════════════════════
-  dast-zap-test:
-    needs: publish-docker-hub
-    uses: ./.github/workflows/dast-zap-test.yml
-    secrets: inherit
   dast-dynamic-security-testing:
     needs: publish-docker-hub
     uses: ./.github/workflows/dast-zap-test.yml
