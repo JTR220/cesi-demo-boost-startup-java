@@ -13,7 +13,7 @@ spec:
     path: k8s/appli
   destination:
     server: https://kubernetes.default.svc
-    namespace: cesi1
+    namespace: cesi7
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
