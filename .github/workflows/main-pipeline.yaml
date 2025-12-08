@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '0 2 * * 1'  # Tous les lundis à 2h du matin
+    - cron: '0 2 * * 1'  
   workflow_dispatch:  # Permet le déclenchement manuel
 
 permissions:
