@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: cesi7-demo-java
-          image: emanzat/cesi7-demo-java:c58d8177acfad8c20e751bd0944ef875d18fad20
+          image: chaker220/cesi7-demo-boost-startup:948cebad6651eb90f9062d3339200ae9b1a0837a
           ports:
             - containerPort: 8080
               name: http
